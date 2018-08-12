@@ -78,11 +78,11 @@ var owlbig = $('.with-carousel .carousel');
 $counter=$('#getting-started');
 $counter.countdown($counter.attr("data-end-date"), function(event) {
 var $this = $(this).html(event.strftime(''
-  + '<div class="column"><span>%w</span> Weeks </div>'
-  + '<div class="column"><span>%d</span> Days </div>'
-  + '<div class="column"><span>%H</span> Hours </div>'
-  + '<div class="column"><span>%M</span> Minutes </div>'
-  + '<div class="column"><span>%S</span> Seconds </div>'));
+  + '<div class="column"><span>%w</span> Minggu </div>'
+  + '<div class="column"><span>%d</span> Hari </div>'
+  + '<div class="column"><span>%H</span> Jam </div>'
+  + '<div class="column"><span>%M</span> Menit </div>'
+  + '<div class="column"><span>%S</span> Detik </div>'));
 });
 /* END - Timer/countdown jquery plugin */
 
