@@ -4,7 +4,7 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Pernikahan Abdul & Ika</title>
+    <title>Pernikaan Abdul & Ika</title>
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pawiwahan-Wedding HTML5 Template">
@@ -48,6 +48,7 @@
           <li><a href="#timer">COUNTDOWN</a></li>
           <li><a href="#events">ACARA</a></li>
           <li><a href="#rsvp-form">UNDANGAN</a></li>
+          <li><a href="#people">PEOPLE</a></li>
           <li><a href="#gallery">GALLERY</a></li>
           <li><a href="#gifts">SOUVENIR</a></li>
         </ul>
@@ -129,8 +130,8 @@
                     <span class="date">25 Agustus 2018</span>
                     <h3>Menikah</h3>
                     <p>Finally the time has come, this day we really happy. Please come by to enjoy the food and drink, dance party till drop with us! We also have some holy ceremonial with traditional balinese culture. <a class="button hollow secondary" href="#rsvp-form">RSVP!</a></p>
-                  </div> 
-                  <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="images/content/menikah.jpeg"></div></div>
+                  </div>
+                  <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="images/content/24-square.jpg"></div></div>
                 </li><!-- end of event 1 -->
                 <li><!-- event 2 -->
                   <div class="column">
@@ -138,7 +139,7 @@
                     <h3>Tunangan</h3>
                     <p>But also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
                   </div>
-                  <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="images/content/tunangan1.jpeg"></div></div>
+                  <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="images/content/28-square.jpg"></div></div>
                 </li><!-- end of event 2 -->
                 <li><!-- event 3 -->
                   <div class="column">
@@ -146,7 +147,7 @@
                     <h3>Ketemu</h3>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                   </div>
-                  <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="images/content/IMG_0261.JPG"></div></div>
+                  <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="images/content/39-square.jpg"></div></div>
                 </li><!-- end of event 3 -->
               </ul>
               <h5 class="text-center">...old story</h5>
@@ -160,7 +161,7 @@
           <div class="bg-overlay bg-overlay-heart bg-overlay-dark animated wobble_bg"></div>
           <div class="column text-center">
             <div class="row">
-              <h2>Kami harap kamu bisa hadir</h2>
+              <h2>Kami harap anda bisa hadir</h2>
             </div>
             <div class="row counter" id="getting-started" data-end-date="2018/08/25"></div>
             <div class="row"><a class="button standout" href="#rsvp-form">Undangan</a></div>
@@ -176,7 +177,7 @@
             <div class="blog">
               <!-- eachpost 1 start -->
               <div class="each-post">
-                <div class="thumbnail thumbnail-xxl"><img alt="" src="images/content/tunangan.jpeg"></div>
+                <div class="thumbnail thumbnail-xxl"><img alt="" src="images/content/31-square.jpg"></div>
                 <div class="content">
                   <h3>Akad Nikah</h3>
                   <div class="meta-post">
@@ -217,7 +218,7 @@
           <div class="column">
             <div class="title">
               <h2>UNDANGAN</h2>
-              <h5>Silahkan masukan Email dan no HP supaya kami bisa mengirim undangan.</h5>  
+              <h5>I know if you come down a long this website you must be have a good relationship with us, so please write down your information clear and nicely.</h5>  
             </div>
             <!-- // START FORM // -->
             <form id="submit-rsvp" data-abide novalidate><!-- add parameter to form if necessary -->
@@ -254,6 +255,39 @@
                   </label>
                 </div>  
               </div>
+              <!-- <div class="row">
+                <div class="column small-12 large-9 checkbox-group" data-validator-min="1">
+                  <legend>Attended the event</legend>
+                  <input type="checkbox" name="attendance" data-validator="checkbox_limit" id="rsvp-opt1" /><label for="rsvp-opt1">Mejantos & Ngidih</label>
+                  <input type="checkbox" name="attendance" data-validator="checkbox_limit" id="rsvp-opt2" /><label for="rsvp-opt2">The Wedding Day</label>
+                  <input type="checkbox" name="attendance" data-validator="checkbox_limit" id="rsvp-opt3" /><label for="rsvp-opt3">Reception & Wedding Dinner</label>
+                  <div class="spacing"></div>must have div with class spacing to have breakline after input:checkbox
+                  <span class="form-error">
+                    You must attend to one of our ceremonial
+                  </span>
+                </div>
+                <div class="column small-12 large-3">
+                  <legend>Guest(s)</legend>
+                  <select required name="guest">
+                    <option value="">= Guest =</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>3++</option>
+                  </select>
+                  <span class="form-error">
+                    Do you bring another guest?
+                  </span>
+                </div>
+              </div> -->
+<!--               <div class="row">
+                <div class="column">
+                  <textarea name="messages" placeholder="Drop couple of lines" required></textarea>
+                  <span class="form-error">
+                    Give me special words 
+                  </span>
+                </div>
+              </div> -->
               <div class="row text-center">
                 <div class="column"><button type="submit">SUBMIT</button></div>
               </div>
@@ -263,92 +297,60 @@
           </div>
         </section>
         <!-- end FORM RSVP -->
-        
         <!-- people gallery -->
         <section id="people" class="row asanoha behind expanded">
           <div class="column body">
             <h2 class="text-center main-heading">People</h2>
-            <h5 class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
-              layout</h5>
+            <h5 class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</h5>
             <!-- carousel family -->
             <div class="row carousel-container">
               <h4 class="text-center">Family</h4>
               <div class="carousel-5">
-                <div class="item">
-                  <!-- item 1 -->
+                <div class="item"><!-- item 1 -->
                   <img alt="" src="images/content/people/family/family1.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Wayan Baglur
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 1 -->
-                <div class="item">
-                  <!-- item 2 -->
+                </div><!-- END - item 1 -->
+                <div class="item"><!-- item 2 -->
                   <img alt="" src="images/content/people/family/family2.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Luh Pasih
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 2 -->
-                <div class="item">
-                  <!-- item 3 -->
+                </div><!-- END - item 2 -->
+                <div class="item"><!-- item 3 -->
                   <img alt="" src="images/content/people/family/family3.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Made Meja
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 3 -->
-                <div class="item">
-                  <!-- item 4 -->
+                </div><!-- END - item 3 -->
+                <div class="item"><!-- item 4 -->
                   <img alt="" src="images/content/people/family/family4.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Komang Seni
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 4 -->
-                <div class="item">
-                  <!-- item 5 -->
+                </div><!-- END - item 4 -->
+                <div class="item"><!-- item 5 -->
                   <img alt="" src="images/content/people/family/family5.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Ketut Nyamprut
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 5 -->
+                </div><!-- END - item 5 -->
               </div>
             </div>
             <!-- end carousel family -->
@@ -356,81 +358,51 @@
             <div class="row carousel-container">
               <h4 class="text-center">Groomsmen</h4>
               <div class="carousel-5">
-                <div class="item">
-                  <!-- item 1 -->
+                <div class="item"><!-- item 1 -->
                   <img alt="" src="images/content/people/groom/1.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Putu Bagus
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 1 -->
-                <div class="item">
-                  <!-- item 2 -->
+                </div><!-- END - item 1 -->
+                <div class="item"><!-- item 2 -->
                   <img alt="" src="images/content/people/groom/2.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Made Nyem
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 2 -->
-                <div class="item">
-                  <!-- item 3 -->
+                </div><!-- END - item 2 -->
+                <div class="item"><!-- item 3 -->
                   <img alt="" src="images/content/people/groom/3.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Nyoman Ngakak
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 3 -->
-                <div class="item">
-                  <!-- item 4 -->
+                </div><!-- END - item 3 -->
+                <div class="item"><!-- item 4 -->
                   <img alt="" src="images/content/people/groom/4.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Ketut Mekenyem
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 4 -->
-                <div class="item">
-                  <!-- item 5 -->
+                </div><!-- END - item 4 -->
+                <div class="item"><!-- item 5 -->
                   <img alt="" src="images/content/people/groom/5.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Kadek Kenyem Masem
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 5 -->
+                </div><!-- END - item 5 -->
               </div>
             </div>
             <!-- end carousel Groomsmen -->
@@ -438,104 +410,74 @@
             <div class="row carousel-container">
               <h4 class="text-center">Bridesmaids</h4>
               <div class="carousel-5">
-                <div class="item">
-                  <!-- item 1 -->
+                <div class="item"><!-- item 1 -->
                   <img alt="" src="images/content/people/bride/1.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Luh Eleg Gan
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 1 -->
-                <div class="item">
-                  <!-- item 2 -->
+                </div><!-- END - item 1 -->
+                <div class="item"><!-- item 2 -->
                   <img alt="" src="images/content/people/bride/2.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Komang Cengir
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 2 -->
-                <div class="item">
-                  <!-- item 3 -->
+                </div><!-- END - item 2 -->
+                <div class="item"><!-- item 3 -->
                   <img alt="" src="images/content/people/bride/3.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Luh Bunga
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 3 -->
-                <div class="item">
-                  <!-- item 4 -->
+                </div><!-- END - item 3 -->
+                <div class="item"><!-- item 4 -->
                   <img alt="" src="images/content/people/bride/4.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Kadek Ngeseng
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 4 -->
-                <div class="item">
-                  <!-- item 5 -->
+                </div><!-- END - item 4 -->
+                <div class="item"><!-- item 5 -->
                   <img alt="" src="images/content/people/bride/5.jpg">
                   <div class="hover-item">
                     <div class="desc">
                       Luh Cabe Mentik
-                      <span class="social-media">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </span>
+                      <span class="social-media"><a href="#"><i class="fa fa-instagram"></i></a></span>
                     </div>
                   </div>
-                </div>
-                <!-- END - item 5 -->
+                </div><!-- END - item 5 -->
               </div>
             </div>
             <!-- end carousel Bridesmaids -->
           </div>
         </section>
         <!-- end people gallery -->
+
         <!-- Photo Gallery -->
         <section id="gallery" class="row expanded gallery-container">
           <div class="column body">
             <h2 class="text-center main-heading">Gallery</h2>
             <ul class="filters">
               <!-- define categories -->
-              <li class="" data-group="white">White</li>
-              <li class="" data-group="black">Black</li>
-              <li class="" data-group="brown">Brown</li>
+              <li class="" data-group="family">Family</li>
+              <li class="" data-group="bride-groom">Bride & Groom</li>
+              <li class="" data-group="spots">Spots</li>
             </ul>
 
             <!-- div galleries wrapper -->    
             <div id="grid" class="row galleries">
               <!-- gallery 1 -->
-              <div class="gallery-sizer"></div>
-              <!-- .gallery-sizer is markup helper for js (required) -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["white"]'>
+              <div class="gallery-sizer"></div><!-- .gallery-sizer is markup helper for js (required) -->
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["family"]'>
                 <a href="images/content/28.jpg" data-lightbox="gallery" data-title="The rings">
                   <img src="images/content/21-square.jpg" alt="">
                   <div class="label-wrapper">
@@ -545,17 +487,17 @@
               </figure>
               <!-- END - gallery 1 -->
               <!-- gallery 2 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["white"]'>
-                <a href="images/content/b1.JPG" data-lightbox="gallery" data-title="Our wedding ring">
-                  <img src="images/content/b1-sq.jpg" alt="">
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["family"]'>
+                <a href="images/content/24.jpg" data-lightbox="gallery" data-title="Our wedding ring">
+                  <img src="images/content/24-square.jpg" alt="">
                   <div class="label-wrapper">
                     <div class="label">Our wedding ring</div>
                   </div>
-                </a>
+                </a>  
               </figure>
               <!-- END - gallery 2 -->
               <!-- gallery 3 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["brown"]'>
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["spots"]'>
                 <a href="images/content/28.jpg" data-lightbox="gallery" data-title="The rings">
                   <img src="images/content/28-square.jpg" alt="">
                   <div class="label-wrapper">
@@ -565,9 +507,9 @@
               </figure>
               <!-- END - gallery 3 -->
               <!-- gallery 4 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["black"]'>
-                <a href="images/content/black4.JPG" data-lightbox="gallery" data-title="My queen">
-                  <img src="images/content/black4.JPG" alt="">
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["bride-groom"]'>
+                <a href="images/content/101.jpg" data-lightbox="gallery" data-title="My queen">
+                  <img src="images/content/101-square.jpg" alt="">
                   <div class="label-wrapper">
                     <div class="label">My Queen</div>
                   </div>
@@ -575,7 +517,7 @@
               </figure>
               <!-- END - gallery 4 -->
               <!-- gallery 5 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["brown"]'>
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["spots"]'>
                 <a href="images/content/31.jpg" data-lightbox="gallery" data-title="Wedding ritual">
                   <img src="images/content/31-square.jpg" alt="">
                   <div class="label-wrapper">
@@ -585,7 +527,7 @@
               </figure>
               <!-- END - gallery 5 -->
               <!-- gallery 6 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["brown"]'>
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["spots"]'>
                 <a href="images/content/37.jpg" data-lightbox="gallery" data-title="Food lounge">
                   <img src="images/content/37-square.jpg" alt="">
                   <div class="label-wrapper">
@@ -595,7 +537,7 @@
               </figure>
               <!-- END - gallery 6 -->
               <!-- gallery 7 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["brown"]'>
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["spots"]'>
                 <a href="images/content/38.jpg" data-lightbox="gallery" data-title="Another food lounge">
                   <img src="images/content/38-square.jpg" alt="">
                   <div class="label-wrapper">
@@ -605,7 +547,7 @@
               </figure>
               <!-- END - gallery 7 -->
               <!-- gallery 8 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["white"]'>
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["family"]'>
                 <a href="images/content/39.jpg" data-lightbox="gallery" data-title="One of our pre-wedding shoot">
                   <img src="images/content/39-square.jpg" alt="">
                   <div class="label-wrapper">
@@ -615,7 +557,7 @@
               </figure>
               <!-- END - gallery 8 -->
               <!-- gallery 9 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["black"]'>
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["bride-groom"]'>
                 <a href="images/content/102.jpg" data-lightbox="gallery" data-title="He is Mine!">
                   <img src="images/content/102-square.jpg" alt="">
                   <div class="label-wrapper">
@@ -625,7 +567,7 @@
               </figure>
               <!-- END - gallery 9 -->
               <!-- gallery 10 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["black"]'>
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["bride-groom"]'>
                 <a href="images/content/103.jpg" data-lightbox="gallery" data-title="Another Pre-wedding shoot">
                   <img src="images/content/103-square.jpg" alt="">
                   <div class="label-wrapper">
@@ -635,7 +577,7 @@
               </figure>
               <!-- END - gallery 10 -->
               <!-- gallery 11 -->
-              <figure class="gallery column large-4 medium-6 small-12" data-groups='["black"]'>
+              <figure class="gallery column large-4 medium-6 small-12" data-groups='["bride-groom"]'>
                 <a href="images/content/104.jpg" data-lightbox="gallery" data-title="Wedding cinematic shot">
                   <img src="images/content/104-square.jpg" alt="">
                   <div class="label-wrapper">
@@ -656,20 +598,14 @@
           <div class="column">
             <div class="row spacing s-30"></div>
             <div class="row">
-            <div class="column">
-              <a href="tel:62-856-1119595">+(62) 856 1119595 (IKA)</a><br>
-              <a href="tel:62-899-6226977">+(62) 899 6226977 (ABDUL)</a>
-            </div>
+            <div class="column"><a href="tel:62-856-1119595">+(62) 856 1119595</a></div>
             <div class="column"><span class="lnr lnr-map-marker"></span> Dusun Krajan RT/RW 001/002,  Ds. Pasirkamuning, Kec. Talagasari, Kab. Karawang, Jawa Barat</div>
             <div class="column"><a href="mailto:admin@abdulikamenikah.info"> admin@abdulikamenikah.info </a></div>
             </div>
             <div class="row spacing s-30"></div>
           </div>
         </section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.120842258473!2d107.39114631476927!3d-6.247802995477538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac37b49e1e7d4b9c!2sMimi+Publik!5e0!3m2!1sen!2sus!4v1534516535553"
-          width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.120842258473!2d107.39114631476927!3d-6.247802995477538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTQnNTIuMSJTIDEwN8KwMjMnMzYuMCJF!5e0!3m2!1sen!2sus!4v1534516446970" -->
-            width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1203890715037!2d107.39122511476934!3d-6.2478627954775625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTQnNTIuMyJTIDEwN8KwMjMnMzYuMyJF!5e0!3m2!1sen!2sid!4v1534081270955" width="100%x" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         <!-- <div id="map" data-lat="-8.1037781" data-long="115.0890078" data-title="My wedding here!"></div> -->
         <!-- LOAD GOOGLE MAPS -->
         <!-- end of maps thing -->
@@ -677,16 +613,16 @@
         <!-- begin gifts section -->
         <section id="gifts" class="row expanded smooth-waves">
           <div class="column">
-            <h2 class="text-center main-heading">Terimakasih</h2>
+            <h2 class="text-center main-heading">Gifts</h2>
             <h5 class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</h5>
             <div class="spacing s-70"></div>
-            <!-- <div class="row">
+            <div class="row">
               <div class="column small-12 large-expand text-center"><div class="thumbnail thumbnail-md"><img alt="" src="images/gifts/gift1.png"></div></div>
               <div class="column small-12 large-expand text-center"><div class="thumbnail thumbnail-md"><img alt="" src="images/gifts/gift2.png"></div></div>
               <div class="column small-12 large-expand text-center"><div class="thumbnail thumbnail-md"><img alt="" src="images/gifts/gift3.png"></div></div>
               <div class="column small-12 large-expand text-center"><div class="thumbnail thumbnail-md"><img alt="" src="images/gifts/gift4.png"></div></div>
               <div class="column small-12 large-expand text-center"><div class="thumbnail thumbnail-md"><img alt="" src="images/gifts/gift5.png"></div></div>
-            </div> -->
+            </div>
           </div>
         </section>
         <!-- end gifts section -->
