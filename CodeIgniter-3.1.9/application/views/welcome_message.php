@@ -7,7 +7,7 @@
     <title>Pernikahan Abdul & Ika</title>
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Abdul & Ika Menikah Website">
+    <meta name="description" content="Pawiwahan-Wedding HTML5 Template">
     <meta name="author" content="Goalabs">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
@@ -135,7 +135,7 @@
                   <div class="column">
                     <span class="date">25 Agustus 2018</span>
                     <h3>Menikah</h3>
-                    <p>dan hari bahagia itupun datang.. <a class="button hollow secondary" href="#rsvp-form">Undangan!</a></p>
+                    <p>Finally the time has come, this day we really happy. Please come by to enjoy the food and drink, dance party till drop with us! We also have some holy ceremonial with traditional balinese culture. <a class="button hollow secondary" href="#rsvp-form">RSVP!</a></p>
                   </div> 
                   <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="images/content/menikah.jpeg"></div></div>
                 </li><!-- end of event 1 -->
@@ -143,7 +143,7 @@
                   <div class="column">
                     <span class="date">1 April 2018</span>
                     <h3>Tunangan</h3>
-                    <p>Kami serius, dan ini adalah bukti dari keseriusan kami.</p>
+                    <p>But also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
                   </div>
                   <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="images/content/tunangan1.jpeg"></div></div>
                 </li><!-- end of event 2 -->
@@ -151,7 +151,7 @@
                   <div class="column">
                     <span class="date">1 oktober 2017</span>
                     <h3>Ketemu</h3>
-                    <p>Setelah sekelian lama gak saling kontak, kamipun dipertemukan di satu momen, satu waktu yang menentukan..</p>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                   </div>
                   <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="images/content/IMG_0261.JPG"></div></div>
                 </li><!-- end of event 3 -->
