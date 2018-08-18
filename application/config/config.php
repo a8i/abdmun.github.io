@@ -31,7 +31,7 @@ if ($_SERVER['SERVER_PORT'] != 80) {
 }
 
 //custom
-$alamat = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . $port . '/abcd/abdmun.github.io/';
+$alamat = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . $port . '/';
 
 $config['base_url']	= $alamat;
 
