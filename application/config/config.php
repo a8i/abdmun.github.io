@@ -24,16 +24,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = '';
-if ($_SERVER['SERVER_PORT'] != 80) {
-	$port = ':' . $_SERVER['SERVER_PORT'];
-} else {
-	$port ='';
-}
+// if ($_SERVER['SERVER_PORT'] != 80) {
+// 	$port = ':' . $_SERVER['SERVER_PORT'];
+// } else {
+// 	$port ='';
+// }
 
 //custom
-$alamat = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . $port . '/';
+// $alamat = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . $port . '/';
 
-$config['base_url']	= $alamat;
+$config['base_url']	= '/';
 
 /*
 |--------------------------------------------------------------------------
