@@ -135,7 +135,7 @@
                   <div class="column">
                     <span class="date">25 Agustus 2018</span>
                     <h3>Menikah</h3>
-                    <p>Finally the time has come, this day we really happy. Please come by to enjoy the food and drink, dance party till drop with us! We also have some holy ceremonial with traditional balinese culture. <a class="button hollow secondary" href="#rsvp-form">RSVP!</a></p>
+                    <p>dan hari bahagia itupun datang..<a class="button hollow secondary" href="#rsvp-form">RSVP!</a></p>
                   </div> 
                   <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="<?=base_url().'assets/'?>images/content/menikah.jpeg"></div></div>
                 </li><!-- end of event 1 -->
@@ -143,7 +143,7 @@
                   <div class="column">
                     <span class="date">1 April 2018</span>
                     <h3>Tunangan</h3>
-                    <p>But also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                    <p>Kami serius, dan ini adalah bukti dari keseriusan kami.</p>
                   </div>
                   <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="<?=base_url().'assets/'?>images/content/tunangan1.jpeg"></div></div>
                 </li><!-- end of event 2 -->
@@ -151,7 +151,7 @@
                   <div class="column">
                     <span class="date">1 oktober 2017</span>
                     <h3>Ketemu</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p>Setelah sekelian lama gak saling kontak, kamipun dipertemukan di satu momen, satu waktu yang menentukan..</p>
                   </div>
                   <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="<?=base_url().'assets/'?>images/content/IMG_0261.JPG"></div></div>
                 </li><!-- end of event 3 -->
@@ -275,8 +275,7 @@
         <section id="people" class="row asanoha behind expanded">
           <div class="column body">
             <h2 class="text-center main-heading">Gallery</h2>
-            <h5 class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
-              layout</h5>
+            <h5 class="text-center">Ini adalah beberapa potret kebahagiaan yang kami rasakan..</h5>
             <!-- carousel family -->
             <div class="row carousel-container">
               <h4 class="text-center">White</h4>
