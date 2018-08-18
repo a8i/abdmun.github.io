@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="<?=base_url().'assets/'?>styles/main.css">
     <link rel="stylesheet" href="<?=base_url().'assets/'?>styles/lity.css">
     <link rel="stylesheet" href="<?=base_url().'assets/'?>styles/responsive.css">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="<?=base_url();?>" />
+    <meta property="og:image" itemprop="image" content="<?=base_url().'assets/'?>images/favicon/apple-touch-icon.png" />
   </head>
   <body>
     <h1 class="show-for-sr">Abdul & Ika Wedding Party Invitational</h1>
