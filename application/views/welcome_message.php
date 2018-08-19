@@ -74,7 +74,7 @@
         </section>
         <!-- end welcome screen -->
         <!-- section with custom paralax divider -->
-        <section id="the-couple" class="row expanded couple custom-paralax pinetrees-cloudy">
+        <section id="the-couple" class="row expanded couple custom-paralax pinetrees-flat">
           <div class="wrapper"></div>
           <div class="body">
             <h2 class="text-center main-heading">Kedua Mempelai</h2>
