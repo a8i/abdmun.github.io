@@ -52,8 +52,9 @@
           <li><a href="#timer">COUNTDOWN</a></li>
           <li><a href="#events">ACARA</a></li>
           <li><a href="#rsvp-form">UNDANGAN</a></li>
-          <li><a href="#gallery">GALLERY</a></li>
-          <li><a href="#gifts">SOUVENIR</a></li>
+          <li><a href="#people">GALLERY</a></li>
+          <li><a href="#gallery">VIDEOS</a></li>
+          <li><a href="#gifts">TERIMAKASIH</a></li>
         </ul>
       </div><!-- end of off-canvas -->
       <!-- start wrapping main content -->
@@ -166,7 +167,7 @@
         </section>
         <!-- end timeline/story -->
         <!-- time counter -->
-        <section id="timer" class="row expanded time-countdown" style="background-image:url(images/content/IMG_9038.JPG);"><!-- change background url -->
+        <section id="timer" class="row expanded time-countdown" style="background-image:url(images/content/t8.JPG);"><!-- change background url -->
           <div class="bg-overlay bg-overlay-heart bg-overlay-dark animated wobble_bg"></div>
           <div class="column text-center">
             <div class="row">
