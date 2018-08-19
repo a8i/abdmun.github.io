@@ -81,9 +81,9 @@
             <h5 class="text-center">Akhirnya hari itupun datang sesuai dengan waktu yang telah ditentukan.</h5>
             <div class="row picture-frame">
               <div class="people1">
-                <div class="thumbnail thumbnail-line thumbnail-circle thumbnail-xs"><img alt="Abdul" src="<?=base_url().'assets/'?>images/content/people1.jpg"></div>
-                <h5>kamu adalah wanita yang ingin selalu aku bahagiakan</h5>
-                <a href="https://www.instagram.com/abd_mun/"><i class="fa fa-instagram"></i> abd_mun</a>
+                <div class="thumbnail thumbnail-line thumbnail-circle thumbnail-xs"><img alt="Ika" src="<?=base_url().'assets/'?>images/content/people2.jpg"></div>
+                <h5>Darimu aku belajar arti ketulusan tanpa pernah mendapat balasan rasa yang seimbang..</h5>
+                <a href="https://www.instagram.com/ika.dewi16/"><i class="fa fa-instagram"></i> ika.dewi16</a>                
               </div><!-- end of bride 1 -->
               <div class="frame-wrapper">
                 <div class="frame">
@@ -91,9 +91,9 @@
                 </div>
               </div><!-- end frame couple wedding/prewedding shoot -->
               <div class="people2">
-                <div class="thumbnail thumbnail-line thumbnail-circle thumbnail-xs"><img alt="Ika" src="<?=base_url().'assets/'?>images/content/people2.jpg"></div>
-                <h5>Darimu aku belajar arti ketulusan tanpa pernah mendapat balasan rasa yang seimbang..</h5>
-                <a href="https://www.instagram.com/ika.dewi16/"><i class="fa fa-instagram"></i> ika.dewi16</a>
+                <div class="thumbnail thumbnail-line thumbnail-circle thumbnail-xs"><img alt="Abdul" src="<?=base_url().'assets/'?>images/content/people1.jpg"></div>
+                <h5>kamu adalah wanita yang ingin selalu aku bahagiakan</h5>
+                <a href="https://www.instagram.com/abd_mun/"><i class="fa fa-instagram"></i> abd_mun</a>
               </div><!-- end of bride 2 -->
             </div>
           </div>
@@ -124,6 +124,9 @@
             <div class="item">
               <img alt="" src="<?=base_url().'assets/'?>images/content/t7.JPG">
             </div>
+            <div class="item">
+              <img alt="" src="<?=base_url().'assets/'?>images/content/t8.JPG">
+            </div>
           </div>
         </section>
         <!-- end divider image carouesel -->
@@ -139,7 +142,7 @@
                   <div class="column">
                     <span class="date">25 Agustus 2018</span>
                     <h3>Menikah</h3>
-                    <p>dan hari bahagia itupun datang..<a class="button hollow secondary" href="#rsvp-form">RSVP!</a></p>
+                    <p>dan hari bahagia itupun datang..<a class="button hollow secondary" href="#rsvp-form">Undangan!</a></p>
                   </div> 
                   <div class="column image"><div class="thumbnail thumbnail-xl thumbnail-circle thumbnail-line"><img alt="" src="<?=base_url().'assets/'?>images/content/menikah.jpeg"></div></div>
                 </li><!-- end of event 1 -->
@@ -167,7 +170,7 @@
         </section>
         <!-- end timeline/story -->
         <!-- time counter -->
-        <section id="timer" class="row expanded time-countdown" style="background-image:url(images/content/t8.JPG);"><!-- change background url -->
+        <section id="timer" class="row expanded time-countdown" style="background-image:url(<?=base_url().'assets/'?>images/content/t8.JPG);"><!-- change background url -->
           <div class="bg-overlay bg-overlay-heart bg-overlay-dark animated wobble_bg"></div>
           <div class="column text-center">
             <div class="row">
@@ -578,13 +581,6 @@
         <section id="gallery" class="row expanded gallery-container">
           <div class="column body">
             <h2 class="text-center main-heading">Videos</h2>
-            
-            <!-- <ul class="filters">
-              define categories
-              <li class="" data-group="white">White</li>
-              <li class="" data-group="black">Black</li>
-              <li class="" data-group="brown">Brown</li>
-            </ul> -->
 
             <!-- div galleries wrapper -->    
             <div id="grid" class="row galleries">
@@ -607,9 +603,11 @@
                   </div>
                 </a>
               </figure>
+              <!-- <i class="fa fa-map-marker" aria-hidden="true"></i> Lihat di Youtube -->
               <!-- END - gallery 1 -->
               
             </div>
+            <h6 style="text-align:center;">Kalau koneksi lambat buka di <a href="https://www.youtube.com/channel/UCfDuzUlyWEpf3KqwpRohupw?view_as=subscriber"><br><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a></h6>
             <!-- END - div .galleries wrapper -->
           </div>
         </section>
@@ -625,7 +623,7 @@
               <a href="tel:62-856-1119595">+(62) 856 1119595 (IKA)</a><br>
               <a href="tel:62-899-6226977">+(62) 899 6226977 (ABDUL)</a>
             </div>
-            <div class="column"><span class="lnr lnr-map-marker"></span> Dusun Krajan RT/RW 001/002,  Ds. Pasirkamuning, Kec. Talagasari, Kab. Karawang, Jawa Barat<br><a href="http://bit.ly/lokasiabdulikamenikah">-> Lokasi <-</a></div>
+            <div class="column"><span class="lnr lnr-map-marker"></span> Dusun Krajan RT/RW 001/002,  Ds. Pasirkamuning, Kec. Talagasari, Kab. Karawang, Jawa Barat<br><a href="http://bit.ly/lokasiabdulikamenikah">-><i class="fa fa-map-marker" aria-hidden="true"></i> Lokasi <-</a></div>
             <div class="column"><a href="mailto:admin@abdulikamenikah.info"> admin@abdulikamenikah.info </a></div>
             </div>
             <div class="row spacing s-30"></div>
@@ -663,15 +661,15 @@
               <div class="row spacing s-50"></div>
               <div class="row footline">
                 <div class="column small-12 large-3">
-                  <a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                  <a href="#" target="_blank"><i class="fa fa-twitter-square"></i></a>
-                  <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://web.facebook.com/ika.dewipink" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                  <a href="https://twitter.com/abdmun8" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                  <a href="https://www.instagram.com/ika.dewi16/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
                 <div class="column small-12 large-6">Handcrafted with <i class="fa fa-heart"></i> by <a href="http://bit.ly/goalabs" target="_blank">Goalabs</a> 2017</div>
                 <div class="column small-12 large-3">
-                  <a href="#" target="_blank"><i class="fa fa-vimeo"></i></a>
-                  <a href="#" target="_blank"><i class="fa fa-tumblr"></i></a>
-                  <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                  <a href="https://github.com/abdmun8" target="_blank"><i class="fa fa-github"></i></a>
+                  <a href="https://bitbucket.org/abdmun8/" target="_blank"><i class="fa fa-bitbucket"></i></a>
+                  <a href="https://www.youtube.com/channel/UCfDuzUlyWEpf3KqwpRohupw?view_as=subscriber" target="_blank"><i class="fa fa-youtube"></i></a>
                 </div>
               </div>
           </div>
