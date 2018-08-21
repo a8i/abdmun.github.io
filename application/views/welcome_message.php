@@ -269,7 +269,7 @@
                 </div>  
               </div>
               <div class="row text-center">
-                <div class="column"><button type="submit">SUBMIT</button></div>
+                <div class="column"><button id="svpstr" type="submit">SUBMIT</button></div>
               </div>
             </form>
             <!-- // END of FORM // -->
@@ -607,7 +607,7 @@
               <!-- END - gallery 1 -->
               
             </div>
-            <h6 style="text-align:center;">Kalau koneksi lambat buka di <a href="https://www.youtube.com/channel/UCfDuzUlyWEpf3KqwpRohupw?view_as=subscriber"><br><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a></h6>
+            <h6 style="text-align:center;">Kalau koneksi lambat buka di <a href="https://www.youtube.com/channel/UCfDuzUlyWEpf3KqwpRohupw?view_as=subscriber"><br><i clalocass="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a></h6>
             <!-- END - div .galleries wrapper -->
           </div>
         </section>
@@ -676,7 +676,7 @@
         </footer><!-- end footer -->
       </div><!-- END div off-canvas main content -->
     </div><!-- END div off-canvas wrapper -->
-    
+        
     <!--js files-->
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="<?=base_url().'assets/'?>scripts/vendor/what-input.js"></script>

@@ -220,16 +220,18 @@ $submit_form.submit( function() {
     $submit_form.find("button").text("Sending...");
 
     $.ajax({
-      url     : "php/mailer.php",
+      url     : "welcome/save_visitor",
       type    : "POST",
       enctype : $(this).attr('enctype','multipart/form-data'),
       data    : $(this).serialize(),
       success : function( response ) {
-
-        if(response=='success')
+        var res =JSON.parse(response);
+        if (res.response=='success'){
+          alert('Terimakasih telah mengisi data Undangan');
           $submit_form.find(".greetings").addClass("reveal");
-        else 
+        }else{
           $submit_form.find("button").text("SUBMIT");
+        } 
         
       }
 
