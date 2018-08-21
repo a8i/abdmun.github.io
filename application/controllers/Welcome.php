@@ -27,26 +27,6 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
-
-	function save_comment($post){
-		$comment['site_id'] = 6;
-		$comment['name'] = $post['nama-input'];
-		$comment['email'] = $post['email-input'];
-		$comment['phone'] = $post['phone-input'];
-		$comment['text'] = $post['text-input'];
-		$comment['article_id'] = $post['id-input'];
-		$comment['created_datetime'] = date("Y-m-d H:i:s");
-
-		$this->db->insert('cms_comment',$comment);
-		if($this->db->affected_rows() > 0){
-				echo json_encode(array('success'=>true,'msg'=>'Terimakasih telah memberikan komentar'));
-				$e = $this->db->get_where('cms_setting',array('name_set'=>'EMAIL'))->row()->value_set;
-				$email = array('subject'=>'Pemberitahuan','message'=>ucfirst($comment['name']).' ('.$comment['email'].') '.' telah memberikan komentar','to'=>'markom.explore@gmail.com');
-				$this->emailutil->sendEmail($email);
-		}else{
-				echo json_encode(array('success'=>false,'msg'=>'Terjadi kesalahan!'));
-		}
-	}
 	
 	function save_visitor(){
 		if($_POST['name'] && $_POST['phone'] && $_POST['email']){
