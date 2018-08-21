@@ -206,7 +206,7 @@
               <!-- end eachpost 1 start -->
               <!-- eachpost 2 start -->
               <div class="each-post">
-                <div class="thumbnail thumbnail-xxl"><img alt="" src="<?=base_url().'assets/'?>images/content/24-square.jpg"></div>
+                <div class="thumbnail thumbnail-xxl"><img alt="" src="<?=base_url().'assets/'?>images/content/wedding.JPG"></div>
                 <div class="content">
                   <h3>Resepsi</h3>
                   <div class="meta-post">
@@ -676,7 +676,7 @@
         </footer><!-- end footer -->
       </div><!-- END div off-canvas main content -->
     </div><!-- END div off-canvas wrapper -->
-        
+
     <!--js files-->
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="<?=base_url().'assets/'?>scripts/vendor/what-input.js"></script>
