@@ -217,7 +217,7 @@ function($el, required, parent) {
 // SUBMIT AJAX POST
 $submit_form.submit( function() {
   $(this).on("formvalid.zf.abide", function(ev,frm) { // Good to go...
-    $submit_form.find("button").text("Sending...");
+    $submit_form.find("button").prop("disabled", true).text("Sending...");
 
     $.ajax({
       url     : "welcome/save_visitor",

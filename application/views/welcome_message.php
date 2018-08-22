@@ -688,7 +688,7 @@
     <script type="text/javascript" src="<?=base_url().'assets/'?>scripts/shuffle.min.js"></script>
     <script type="text/javascript" src="<?=base_url().'assets/'?>scripts/jquery.countdown.js"></script>    
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe64UN4DwnwezKAgXNHEaPS7MVxeuyuqI&callback=initMap"></script>
-    <script type="text/javascript" src="<?=base_url().'assets/'?>scripts/app_new.js"></script>
+    <script type="text/javascript" src="<?=base_url().'assets/'?>scripts/appx.js"></script>
     <script type="text/javascript" src="<?=base_url().'assets/'?>scripts/additional.js"></script>
   </body>
 </html>
