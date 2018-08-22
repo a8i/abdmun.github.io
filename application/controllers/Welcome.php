@@ -33,7 +33,7 @@ class Welcome extends CI_Controller {
 			$data = array('view'=>1,'name'=>ucfirst($_POST['name']));
 			$content = $this->send_undangan($data);
 			$email = array(
-				'subject'=>'Pemberitahuan',
+				'subject'=>'Undangan Abdul & Ika menikah',
 				'message'=>$content,
 				'to'=>$_POST['email']);
 			$this->emailutil->sendEmail($email);

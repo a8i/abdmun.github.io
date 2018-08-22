@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Undangan Abdul & Ika Menikah</title>
 	
-<link rel="stylesheet" type="text/css" href="<?=base_url().'assets/'?>styles/email.css" />
+<link rel="stylesheet" type="text/css" href="https://www.abdulikamenikah.info/assets/styles/email.css" />
 
 </head>
  
@@ -22,7 +22,7 @@
 				<div class="content">
 					<table bgcolor="#999999">
 					<tr>
-						<td><img height="40" width="auto" src="<?=base_url().'assets/'?>images/content/lg.png" /></td>
+						<td><img height="40" width="auto" src="https://www.abdulikamenikah.info/assets/images/content/lg.png" /></td>
 						<td align="right"><h6 class="collapse"><a style="text-decoration:none;color:black;" href="https://abdulikamenikah.info">abdulikamenikah.info</a></h6></td>
 					</tr>
 				</table>
@@ -49,7 +49,7 @@
 						<p class="lead"><?=$view == 0 ? "" : "Berikut kami lampirkan undangan pernikahan kami, kami harap anda bisa datang dan memberikan doa restu untuk kami, mudah-mudahan kita semua selalu diberi kesehatan oleh Allah yang maha kuasa dan bisa memanfaatkan kesehatan itu untuk melakukan hal-hal yang positif dan bermanfaat.";?></p>
 						
 						<!-- A Real Hero (and a real human being) -->
-						<p><img src="<?=base_url().'assets/'?>images/content/us.png" /></p><!-- /hero -->
+						<p><img src="https://www.abdulikamenikah.info/assets/images/content/us.png" /></p><!-- /hero -->
 						
 						<!-- Callout Panel -->
 						<p class="callout">Untuk share undangan, anda bisa menggunakan tombol sosial media dibawah ini:

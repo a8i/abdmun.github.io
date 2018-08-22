@@ -227,7 +227,7 @@ $submit_form.submit( function() {
       success : function( response ) {
         var res =JSON.parse(response);
         if (res.response=='success'){
-          alert('Terimakasih telah mengisi data Undangan\r\nEmail telah dikirim ke '+res.email);
+          alert('Terimakasih telah mengisi data Undangan\nEmail telah dikirim ke '+res.email);
           $submit_form.find(".greetings").addClass("reveal");
           setTimeout(location.reload.bind(location), 5000);
         }else{
