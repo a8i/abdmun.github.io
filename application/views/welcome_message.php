@@ -206,7 +206,7 @@
               <!-- end eachpost 1 start -->
               <!-- eachpost 2 start -->
               <div class="each-post">
-                <div class="thumbnail thumbnail-xxl"><img alt="" src="<?=base_url().'assets/'?>images/content/wedding.JPG"></div>
+                <div class="thumbnail thumbnail-xxl"><img alt="" src="<?=base_url().'assets/'?>images/content/w2-sq.jpg"></div>
                 <div class="content">
                   <h3>Resepsi</h3>
                   <div class="meta-post">

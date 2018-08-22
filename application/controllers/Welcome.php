@@ -30,12 +30,25 @@ class Welcome extends CI_Controller {
 	
 	function save_visitor(){
 		if($_POST['name'] && $_POST['phone'] && $_POST['email']){
+			$data = array('view'=>1,'name'=>ucfirst($_POST['name']));
+			$content = $this->send_undangan($data);
 			$email = array(
 				'subject'=>'Pemberitahuan',
-				'message'=>'Terimakasih '.ucfirst($_POST['name']).' telah mengisi data undangan',
+				'message'=>$content,
 				'to'=>$_POST['email']);
 			$this->emailutil->sendEmail($email);
-			echo json_encode(array('response'=>'success'));
+			echo json_encode(array('response'=>'success','email'=>$_POST['email']));
 		}
+	}
+
+	public function view_undangan(){		
+		$data['view'] = 0;
+		$data['name'] = "";
+		$this->load->view('undangan', $data);
+	}
+
+	private function send_undangan($data){
+		$undangan = $this->load->view('undangan', $data, true);
+		return $undangan;
 	}
 }

@@ -33,7 +33,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //custom
 // $alamat = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . $port . '/';
 
-$config['base_url']	= '/';
+$config['base_url']	= '/abcd/abdmun.github.io/';
+// $config['base_url']	= '/';
 
 /*
 |--------------------------------------------------------------------------
